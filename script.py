@@ -11,14 +11,14 @@ pygame.init()
 
 # Setting screen size
 screen = pygame.display.set_mode((800, 600))
-background = pygame.image.load('background-img.jpg')
+background = pygame.image.load('Background.jpeg')
 
 # Adding title
 pygame.display.set_caption('Ball Bounce Simulation')
 
 # Ball class definition
 class Ball:
-    ball_image = pygame.image.load('ball.png')
+    ball_image = pygame.image.load('Ball.jpeg')
     g = 1  # Gravitational acceleration
 
     def __init__(self):
